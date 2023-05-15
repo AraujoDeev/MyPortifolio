@@ -1,0 +1,6 @@
+export { default as logoInstagram } from './ig.png'
+export { default as logoLinkedin } from './lk.png'
+export { default as logoGitHub } from './gh.png'
+export { default as bgHome } from './bgHome.png'
+export { default as Construction } from './construction.png'
+export { default as imagemAbout } from './imagem.png'

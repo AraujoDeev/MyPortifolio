@@ -4,7 +4,7 @@ import MainTemplate from '../../Template'
 import './projects.css'
 import apiURL from '../../../Services/api'
 import Loading from '../../Loading'
-import construction from '../../../../public/assets/img/construction.png'
+import { Construction } from '../../../../public/assets/img'
 
 const Projects = () => {
   const [isLoading, setIsLoading] = useState(true)
@@ -81,7 +81,7 @@ const Projects = () => {
                 </Link>
               ))}
               <div className="construction">
-                <img className="img-construction" src={construction} alt="" />
+                <img className="img-construction" src={Construction} alt="" />
               </div>
             </div>
           )}

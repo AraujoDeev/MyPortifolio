@@ -1,7 +1,7 @@
 import MainTemplate from '../../Template'
 import './main.css'
 import { useNavigate } from 'react-router-dom'
-import bgHome from '../../../../public/assets/img/bgHome.png'
+import { bgHome } from '../../../../public/assets/img'
 
 import React from 'react'
 
