@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+.main-page {
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+
+.left {
+  border-top: 1px solid rgba(255, 255, 255, 0.815);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.815);
+  width: 7.5%;
+}
+
+.center {
+  width: 85%;
+  border: 1px solid rgb(187, 162, 162);
+  display: flex;
+}
+
+.right {
+  border-top: 1px solid rgba(255, 255, 255, 0.815);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.815);
+  width: 7.5%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  padding-left: 80px;
+}
+
+.about {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about h1 {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about p {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.473);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about button {
+  margin-top: 20px;
+  width: 120px;
+  height: 30px;
+  background-color: #00a6da;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
