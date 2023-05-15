@@ -1,8 +1,7 @@
 import React from 'react'
 import './about.css'
 import MainTemplate from '../../Template'
-import Header from '../../Header'
-import Footer from '../../Footer'
+import imgAbout from '../../../../public/assets/img/imagem.png'
 
 const About = () => {
   return (
@@ -12,7 +11,7 @@ const About = () => {
         <div className="center">
           <div className="desc-about">
             <h1>About me</h1>
-            <img src="../../../public/assets/img/imagem.png" alt="foto" />
+            <img src={imgAbout} />
             <p>
               Hey guys, my name is Matheus. I'm a student front end developer,
               I've been studying this area for over 1 year. In my free time I
