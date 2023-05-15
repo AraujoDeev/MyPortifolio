@@ -44,8 +44,6 @@ const Projects = () => {
   //   },
   // ]
 
-  console.log(repositories)
-
   const apiGIT = async () => {
     const allRepos = await apiURL.get('/users/AraujoDeev/repos')
     const reposArray = allRepos.data

@@ -48,8 +48,6 @@ const Header = () => {
             onClick={(e) => {
               navigate(link.link)
               setIsActive(link.title)
-              console.log(e)
-              console.log(isActive)
             }}
           >
             <a>{link.title}</a>
