@@ -4,6 +4,7 @@ import MainTemplate from '../../Template'
 import './projects.css'
 import apiURL from '../../../Services/api'
 import Loading from '../../Loading'
+import construction from '../../../../public/assets/img/bgHome.png'
 
 const Projects = () => {
   const [isLoading, setIsLoading] = useState(true)
@@ -80,11 +81,7 @@ const Projects = () => {
                 </Link>
               ))}
               <div className="construction">
-                <img
-                  className="img-construction"
-                  src="../../../public/assets/img/construction.png"
-                  alt=""
-                />
+                <img className="img-construction" src={construction} alt="" />
               </div>
             </div>
           )}
