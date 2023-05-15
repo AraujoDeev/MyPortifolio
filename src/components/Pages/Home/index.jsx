@@ -44,7 +44,7 @@ const Home = () => {
           >
             <img
               //
-              src="../../../../public/assets/img/img.png"
+              src="../../../../public/assets/img/bgHome.png"
               alt="imagem"
             />
           </div>
