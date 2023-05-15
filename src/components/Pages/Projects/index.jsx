@@ -4,7 +4,7 @@ import MainTemplate from '../../Template'
 import './projects.css'
 import apiURL from '../../../Services/api'
 import Loading from '../../Loading'
-import construction from '../../../../public/assets/img/bgHome.png'
+import construction from '../../../../public/assets/img/construction.png'
 
 const Projects = () => {
   const [isLoading, setIsLoading] = useState(true)
