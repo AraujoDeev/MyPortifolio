@@ -3,7 +3,7 @@
 
 # About the project
 
-https://weather-forecast-nu-dusky.vercel.app/
+https://my-portifolio-taupe.vercel.app/
 
 This project tells a little about me, and it also shows a little of my skills.
 
