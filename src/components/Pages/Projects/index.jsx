@@ -4,17 +4,19 @@ import MainTemplate from '../../Template'
 import './projects.css'
 import apiURL from '../../../Services/api'
 import Loading from '../../Loading'
-import { Construction } from '../../../../public/assets/img'
+// import { Construction } from '../../../../public/assets/img'
 
 const Projects = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [repositories, setRepositories] = useState([])
+  console.log(repositories)
   const selectedRepos = [
     'AraujoStore',
     'Mochila-de-Viagem',
     'Weather-Forecast',
     'App-banco',
     'Numero-secreto',
+    'controle-de-financas',
   ]
 
   // const selectedReposImg = [
@@ -80,9 +82,9 @@ const Projects = () => {
                   <h2>{repository.name}</h2>
                 </Link>
               ))}
-              <div className="construction">
+              {/* <div className="construction">
                 <img className="img-construction" src={Construction} alt="" />
-              </div>
+              </div> */}
             </div>
           )}
         </div>

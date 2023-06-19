@@ -28,7 +28,7 @@ const Contacts = () => {
               </li>
               <li>
                 <Link target="_blank" to={'https://github.com/AraujoDeev'}>
-                  <img src={logoGitHub} alt="" />
+                  <img src={logoGitHub} />
                 </Link>
               </li>
               <li>
@@ -36,7 +36,7 @@ const Contacts = () => {
                   target="_blank"
                   to={'https://www.instagram.com/theu.araujo/'}
                 >
-                  <img src={logoInstagram} alt="ig" />
+                  <img src={logoInstagram} />
                 </Link>
               </li>
             </ul>
