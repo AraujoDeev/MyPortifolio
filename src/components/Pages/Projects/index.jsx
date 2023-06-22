@@ -19,34 +19,6 @@ const Projects = () => {
     'controle-de-financas',
   ]
 
-  // const selectedReposImg = [
-  //   {
-  //     id: 0,
-  //     name: 'App-banco',
-  //     img: '../public/assets/img/banco.png',
-  //   },
-  //   {
-  //     id: 1,
-  //     name: 'AraujoStore',
-  //     img: '../public/assets/img/store.png',
-  //   },
-  //   {
-  //     id: 2,
-  //     name: 'Mochila-de-Viagem',
-  //     img: '../public/assets/img/bag.png',
-  //   },
-  //   {
-  //     id: 3,
-  //     name: 'Numero-secreto',
-  //     img: '../public/assets/img/numerosecreto.png',
-  //   },
-  //   {
-  //     id: 4,
-  //     name: 'Weather-Forecast',
-  //     img: '../public/assets/img/previsao.png',
-  //   },
-  // ]
-
   const apiGIT = async () => {
     const allRepos = await apiURL.get('/users/AraujoDeev/repos')
     const reposArray = allRepos.data
