@@ -54,9 +54,6 @@ const Projects = () => {
                   <h2>{repository.name}</h2>
                 </Link>
               ))}
-              {/* <div className="construction">
-                <img className="img-construction" src={Construction} alt="" />
-              </div> */}
             </div>
           )}
         </div>

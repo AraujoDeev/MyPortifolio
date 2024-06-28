@@ -19,3 +19,9 @@ body {
   width: 100%;
   height: 100vh;
 }
+
+@media screen and (width: 400px) {
+  #root {
+    border: 3px solid red;
+  }
+}
