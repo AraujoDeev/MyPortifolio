@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const links = [
   {
     id: 1,
-    title: 'homeeee',
+    title: 'home',
     link: '/',
   },
   {
